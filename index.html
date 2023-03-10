@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WiFi QR Code Generator</title>
+    <script src="generator.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>WiFi QR Code Generator</h1>
+    <form>
+      <label for="ssid">SSID:</label>
+      <input type="text" id="ssid" name="ssid"><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <button type="button" id="show-password">Show</button><br><br>
+      <label for="encryption">Encryption:</label>
+      <select id="encryption" name="encryption">
+        <option value="WPA">WPA/WPA2/WPA3</option>
+        <option value="WEP">WEP</option>
+        <option value="nopass">No Password</option>
+      </select><br><br>
+      <input type="button" value="Generate QR Code" id="generate-button">
+    </form>
+    <br><br>
+    <img id="qrcode" alt="QR Code">
+  </body>
+</html>

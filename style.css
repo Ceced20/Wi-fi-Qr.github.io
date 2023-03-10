@@ -1,0 +1,103 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #333131, #434853);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+  }
+
+
+  /* Header styles */
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+  }
+  
+  /* Form styles */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border: 1px solid #444;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+  }
+
+  #qrcode {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5), 0 0 0 5px #434853;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  select {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #555;
+    color: #fff;
+  }
+  
+  button[type="button"],
+  input[type="button"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1f2122;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="button"]:hover,
+  input[type="button"]:hover {
+    background-color: #414749;
+  }
+  
+  /* QR code styles */
+  #qrcode {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Show password button styles */
+  #show-password {
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  #show-password:hover {
+    text-decoration: underline;
+  }
+  
